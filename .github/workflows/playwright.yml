@@ -28,8 +28,8 @@ jobs:
 
       - name: Execute Tests
         env:
-         LOGIN_USERNAME: ${{ SECRET1.LOGIN_USERNAME }}
-         LOGIN_PASSWORD: ${{ SECRET2.LOGIN_PASSWORD }}
+         LOGIN_USERNAME: ${{ secrets.SECRET1 }}
+         LOGIN_PASSWORD: ${{ secrets.SECRET2 }}
         run: npx playwright test
 
       - name: Upload Playwright Report
