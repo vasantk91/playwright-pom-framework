@@ -1,0 +1,5 @@
+name,email,password,gender,employmentStatus,dob
+Vasant,kulkarnivasantrao91@gmail.com,Learning@123,Male,Student,2/18/1997
+Amit,amit.sharma@example.com,SecurePass456,Male,Employed,5/15/1992
+Priya,priya.nair@example.com,TestPass789,Female,Student,11/23/2001
+Ajit,Ajit@example.com,Aj@1004,Male,Employed,12/24/2001
