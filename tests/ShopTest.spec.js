@@ -1,5 +1,5 @@
 import { test, expect } from "../Utils/Fixtures.js";
-import DataUtil from "../utils/DataUtil.js"; 
+import DataUtil from "../Utils/DataUtil.js"; 
 
 const records = DataUtil.getTestData("TestData/productName.csv");
 
