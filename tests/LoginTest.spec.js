@@ -5,6 +5,9 @@ test("Login Test", async ({ page, loginPage }) => {
   // 3. Step 1: Navigate to the application login screen
   await loginPage.navigateToLoginPage(process.env.BASE_URL);
 
+  console.log("USERNAME =", process.env.LOGIN_USERNAME);
+console.log("PASSWORD EXISTS =", !!process.env.LOGIN_PASSWORD);
+
   // 4. Step 2: Perform login action with valid credentials
   await loginPage.login(process.env.LOGIN_USERNAME, process.env.LOGIN_PASSWORD);
 
