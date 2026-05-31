@@ -28,3 +28,10 @@ jobs:
 
       - name: Execute Tests
         run: npx playwright test
+
+      - name: Upload Playwright Report
+  if: always()
+  uses: actions/upload-artifact@v4
+  with:
+    name: playwright-report
+    path: playwright-report/
