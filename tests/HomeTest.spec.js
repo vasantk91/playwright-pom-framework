@@ -1,6 +1,6 @@
-import { test, expect } from "../utils/fixtures.js";
+import { test, expect } from "../Utils/Fixtures.js";
 // 1. Import your sleek new utility
-import DataUtil from "../utils/DataUtil.js"; 
+import DataUtil from "../Utils/DataUtil.js"; 
 
 // 2. Simply point to the file path from your root directory!
 const records = DataUtil.getTestData("TestData/registrationData.csv");
